@@ -113,6 +113,9 @@ button {
   text-transform: capitalize;
   text-decoration: none;
 }
+.top-section .navbar .nav-menu div a:hover {
+  text-decoration: underline;
+}
 .top-section .navbar .nav-menu div .logo {
   background-color: #000000;
   color: #ffffff;
@@ -121,6 +124,7 @@ button {
   transition: 0.5s;
 }
 .top-section .navbar .nav-menu div .logo:hover {
+  text-decoration: none;
   background-color: white;
   color: black;
 }
@@ -131,6 +135,7 @@ button {
   transition: 0.5s;
 }
 .top-section .navbar .nav-menu div .contact-us:hover {
+  text-decoration: none;
   background-color: white;
   color: black;
 }

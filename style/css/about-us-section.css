@@ -1,7 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;1,300;1,400&display=swap");
+@media screen and (max-width: 1200px) {
+  .about-us-section {
+    flex-wrap: no-wrap;
+  }
+  .about-us-section .photo {
+    position: absolute;
+    width: 100% !important;
+  }
+  .about-us-section .text {
+    background-color: #fffffff1;
+    position: absolute;
+    font-size: small;
+    padding: 15px !important;
+    width: 100vw !important;
+    height: 100vh !important;
+  }
+  .about-us-section .text p {
+    width: 95%;
+  }
+}
 .about-us-section {
   width: 100%;
   height: 100vh;
-  background-color: green;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  background-color: white;
+}
+.about-us-section .photo {
+  order: 0;
+  width: 50%;
+  height: 100vh;
+  background-image: url("https://iea.imgix.net/baf1e3a9-a015-4917-8206-021234e74453/matthew-hamilton-Ru3Ap8TNcsk-unsplash.jpg?auto=compress%2Cformat&fit=min&q=80&rect=1710%2C0%2C3648%2C3648");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-us-section .photo img {
+  display: none;
+  width: 100%;
+  height: 100vh;
+}
+.about-us-section .text {
+  width: 50%;
+  height: 100vh;
+  padding: 35px;
+}
+.about-us-section .text h1 {
+  font-size: xx-large;
+  font-weight: 800;
+  text-transform: uppercase;
+  border-right: 2px solid black;
+}
+.about-us-section .text p {
+  font-weight: 600;
+  text-indent: 25px;
 }
 
 /*# sourceMappingURL=about-us-section.css.map */
