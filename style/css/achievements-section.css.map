@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../sass/achievements-section.sass"],"names":[],"mappings":"AAAA;EACI;EACA;EACA","file":"achievements-section.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/fonts.sass","../sass/achievements-section.sass","../sass/color.sass"],"names":[],"mappings":"AAAQ;ACGR;EACI;EACA;EAEA;EACA;EACA;EACA;EACA;EAEA,aDZG;ECcH;;AACA;EACI;EACA;EAEA;EACA;EAEA;EACA;;AACJ;EACI;EACA;EAEA;EAEA;EACA,OC9BK;;ADgCL;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA","file":"achievements-section.css"}
