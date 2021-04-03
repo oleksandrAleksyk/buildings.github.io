@@ -6,9 +6,12 @@
   .top-section .navbar .nav-menu div .logo {
     position: absolute;
     width: 100px;
-    right: 10px;
+    right: 25px;
     visibility: visible;
     font-size: x-large;
+  }
+  .top-section .navbar .nav-menu div .logo:hover {
+    background-color: red;
   }
   .top-section .navbar .nav-menu div .contact-us {
     width: 100%;
@@ -23,9 +26,21 @@
   .top-section .navbar .nav-menu .menu-toggler {
     display: inline !important;
     position: absolute;
-    left: 0;
+    left: 50px;
     top: 0;
-    transform: translate(-35%, 100%);
+    transform: translate(-35%, 75%);
+  }
+  .top-section .text {
+    top: 15vh !important;
+    background: transparent !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .top-section .text {
+    top: 10vh !important;
+  }
+  .top-section .navbar .nav-menu .menu-toggler {
+    left: 10px !important;
   }
 }
 button {
@@ -76,10 +91,10 @@ button {
 }
 .top-section .navbar .nav-menu .menu-toggler button {
   width: 100px;
-  background-color: transparent;
+  background-color: #000000;
   color: #ffffff;
   border: none;
-  padding: 10px;
+  padding: 15px;
   font-size: large;
   font-weight: 800;
 }
@@ -124,6 +139,31 @@ button {
 }
 .top-section .navbar .nav-menu div:last-child {
   width: 175px;
+}
+.top-section .text {
+  color: #ffffff;
+  background: #833ab4;
+  background: linear-gradient(90deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
+  position: absolute;
+  top: 35vh;
+  width: 100%;
+  text-align: center;
+}
+.top-section .text h2 {
+  margin-left: 50px;
+  padding-left: 50px;
+  margin-right: 50px;
+  padding-right: 50px;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+.top-section .text p {
+  color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.top-section .text:hover {
+  color: white;
 }
 
 /*# sourceMappingURL=top-section.css.map */

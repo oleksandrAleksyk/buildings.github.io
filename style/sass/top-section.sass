@@ -10,9 +10,11 @@
                     .logo
                         position: absolute
                         width: 100px
-                        right: 10px
+                        right: 25px
                         visibility: visible 
                         font-size: x-large
+                        &:hover
+                            background-color: red
                     .contact-us
                         width: 100%
 
@@ -30,9 +32,22 @@
                     display: inline !important
 
                     position: absolute
-                    left: 0                    
+                    left: 50px                   
                     top: 0
-                    transform: translate(-35%,100%)
+                    transform: translate(-35%,75%)
+        .text
+            top: 15vh !important
+            background: transparent !important
+@media screen and ( max-width: 500px  ) 
+    .top-section
+        .text
+            top: 10vh !important
+        .navbar
+            .nav-menu
+                .menu-toggler
+                    left: 10px !important
+
+    
                         
 
 $button-width: 175px
@@ -89,11 +104,11 @@ button
                 button
                     width: 100px
 
-                    background-color: transparent
+                    background-color: $primary-color
                     color: $font-color
 
                     border: none
-                    padding: 10px
+                    padding: 15px
 
                     font-size: large
                     font-weight: 800
@@ -122,8 +137,8 @@ button
 
                     transition: 0.5s
                     &:hover
-                        background-color: invert($primary-color)
-                        color: invert($font-color)
+                        background-color: white
+                        color: black
                 .contact-us
                     background-color: $primary-color
                     color: $font-color
@@ -138,6 +153,37 @@ button
                     width: $button-width
                 &:last-child
                     width: $button-width
+    .text
+        color: $font-color
+        background: rgb(131,58,180)
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)
+        
+        
+
+        position: absolute
+        top: 35vh
+        width: 100%
+
+        text-align: center 
+        h2  
+            margin-left: 50px
+            padding-left: 50px 
+            
+
+            margin-right: 50px
+            padding-right: 50px
+            
+
+            text-transform: uppercase
+            font-size: 50px
+        p
+            color: white
+            margin-left: 50px
+            margin-right: 50px
+        &:hover
+            color: white            
+           
+           
                
                     
 
