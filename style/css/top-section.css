@@ -147,6 +147,7 @@ button {
   position: absolute;
   top: 35vh;
   width: 100%;
+  font-family: "Poppins", sans-serif;
   text-align: center;
 }
 .top-section .text h2 {
