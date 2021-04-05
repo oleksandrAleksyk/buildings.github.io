@@ -1,5 +1,45 @@
 @import "./color"
 @import "./fonts"
+@media screen and ( max-width: 700px )
+    .achivements-section
+        margin-top: 50px
+        overflow: auto
+        .content 
+            height: auto !important
+            .row
+                overflow: auto
+                flex-wrap: wrap
+                .card
+                    width: 100% !important
+                    h5
+                        width: 55% !important
+                        heigth: 50% !important
+@media screen and ( min-width: 700px )
+    .achivements-section
+        margin-top: 0 !important
+        .content
+            .row
+                overflow: auto
+                flex-wrap: wrap
+                .card
+                    width: 50% !important
+                    h5
+                        width: 250px !important
+                        height: 150px !important
+                        font-size: x-large
+
+    
+                    
+                       
+    
+@media screen and ( min-width: 1450px )
+    .achivements-section
+        .content
+            .row
+                .card
+                    h5
+                        font-size: xx-large !important
+    
 $background-photo: "https://www.americancityandcounty.com/files/2020/06/sean-pollock-PhYq704ffdA-unsplash-2-1024x512.jpg"
 .achivements-section
     width: 100%
@@ -60,7 +100,7 @@ $background-photo: "https://www.americancityandcounty.com/files/2020/06/sean-pol
 
             .card
                 height: 70%
-                width: 20% !important
+                width: 20%  
 
                 background: #16255f7e
                 background: linear-gradient(180deg, #16245f7e 0%, #2144857e 50%, #ad1e1e7e 100%)
@@ -73,10 +113,20 @@ $background-photo: "https://www.americancityandcounty.com/files/2020/06/sean-pol
                     text-align: center
                     border: 5px solid white
 
-                    height: 150px
-                    width: 250px
+                    height: 15vh
+                    width: 25vh
                     margin: 50px auto
                     padding-top: 15%
                     border-radius: 50%
                     text-transform: uppercase
-                    font-size: xx-large
+                    font-size: x-large
+                button
+                    padding: 15px
+                    width: 100% 
+                    text-align: center
+                    background-color: transparent
+                    color: $font-color
+                    border: none
+                    cursor: pointer
+                    font-size: large
+
