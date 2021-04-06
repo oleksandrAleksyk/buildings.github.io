@@ -236,8 +236,14 @@ button {
 }
 
 @media screen and (max-width: 700px) {
+  .achivements-section .content .row .card h5 {
+    width: 55% !important;
+    height: 50% !important;
+    padding-top: 20% !important;
+  }
+}
+@media screen and (max-width: 1200px) {
   .achivements-section {
-    margin-top: 50px;
     overflow: auto;
   }
   .achivements-section .content {
@@ -251,20 +257,22 @@ button {
     width: 100% !important;
   }
   .achivements-section .content .row .card h5 {
-    width: 55% !important;
-    heigth: 50% !important;
+    max-width: 250px !important;
+    height: 125px !important;
+    font-size: x-large;
+    padding-top: 6% !important;
   }
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1350px) {
   .achivements-section {
-    margin-top: 0 !important;
+    margin-top: 0px !important;
   }
   .achivements-section .content .row {
     overflow: auto;
     flex-wrap: wrap;
   }
   .achivements-section .content .row .card {
-    width: 50% !important;
+    width: 25% !important;
   }
   .achivements-section .content .row .card h5 {
     width: 250px !important;
@@ -278,6 +286,7 @@ button {
   }
 }
 .achivements-section {
+  margin-top: 25px;
   width: 100%;
   height: 100vh;
   background: url("https://www.americancityandcounty.com/files/2020/06/sean-pollock-PhYq704ffdA-unsplash-2-1024x512.jpg");
@@ -298,11 +307,17 @@ button {
 }
 .achivements-section .content {
   overflow: hidden;
+  padding-right: -50px;
   width: 100%;
   height: 100vh;
   position: absolute;
   z-index: 555;
   color: #ffffff;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.achivements-section .content ::-webkit-scrollbar {
+  display: none;
 }
 .achivements-section .content h1 {
   width: max-content;
@@ -338,7 +353,7 @@ button {
   text-align: center;
   border: 5px solid white;
   height: 15vh;
-  width: 25vh;
+  width: 20vh;
   margin: 50px auto;
   padding-top: 15%;
   border-radius: 50%;
